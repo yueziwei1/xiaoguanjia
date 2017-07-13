@@ -1,0 +1,158 @@
+@import url(reset.css);
+.cen {
+  margin: 0 auto;
+}
+.father {
+  position: relative;
+}
+html,
+body,
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 10px;
+}
+.yifen {
+  -webkit-box-flex: 1;
+}
+.chuizhi {
+  -webkit-box-align: center;
+}
+.shuipin {
+  -webkit-box-pack: center;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.box .top {
+  z-index: 9999;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  height: 1rem;
+  -webkit-box-align: center;
+  background: #4194f0;
+  padding: 0 0.3rem;
+  box-sizing: border-box;
+}
+.box .top .tu1 {
+  width: 0.4rem;
+}
+.box .top .dian {
+  width: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  color: #fff;
+}
+.box .top .dian .tu {
+  display: block;
+}
+.box .top .dian .tu2 {
+  height: 0.3rem;
+}
+.box .top .dian .zizi {
+  font-size: 0.2rem;
+}
+.box .top form {
+  -webkit-box-flex: 1;
+  width: 3.02rem;
+  height: 0.5rem;
+  background: #3586e0 url(../img/dizhi.png) no-repeat 0.22rem center;
+  margin-left: 15.46875%;
+  margin-right: 8.125%;
+  padding-left: 0.64rem;
+  box-sizing: border-box;
+  background-size: 0.27rem;
+  border-radius: 0.21rem;
+}
+.box .top form .texta {
+  width: 2.26rem;
+  font-size: 0.32rem;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  word-spacing: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.box .main1 {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.box .main1 .tu3 {
+  width: 100%;
+}
+.box .main1 .kuai .img4 {
+  display: block;
+  height: 2.14rem;
+  margin: 0.7rem auto 0;
+}
+.box .main1 .kuai p {
+  width: 3.88rem;
+  text-align: center;
+  margin: 0.33rem auto 0.52rem;
+  color: #a4a4a4;
+  font-size: 0.25rem;
+}
+.box .main1 .kuai .button {
+  display: block;
+  width: 3.32rem;
+  height: 0.7rem;
+  border: 1px solid #4194f0;
+  margin: 0 auto;
+  color: #4194f0;
+  font-size: 0.36rem;
+  text-align: center;
+  line-height: 0.7rem;
+  border-radius: 0.4rem;
+}
+.box .footer {
+  z-index: 9999;
+  background: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  height: 1.1rem;
+  border-top: 1px solid #e6e9eb;
+  box-shadow: 0 0 0.8rem #e6e9eb;
+}
+.box .footer .kuai1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.box .footer .kuai1 .shou {
+  margin: 0 auto;
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../img/Home1.png) no-repeat;
+  background-size: 0.4rem;
+}
+.box .footer .kuai1 .dan {
+  margin: 0 auto;
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../img/dindan.png) no-repeat;
+  background-size: 0.4rem;
+}
+.box .footer .kuai1 .my {
+  margin: 0 auto;
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../img/my.png) no-repeat;
+  background-size: 0.4rem;
+}
+.box .footer .kuai1 .di_zi {
+  color: #9e9e9e;
+  font-size: 0.18rem;
+}
+.box .footer .kuai1 .di_zi:hover,
+.box .footer .kuai1 .di_zi.active22 {
+  color: #4194f0;
+}

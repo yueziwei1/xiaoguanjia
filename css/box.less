@@ -1,0 +1,404 @@
+@import url(reset.css);
+@lan: #4194f0;
+@dicolor: #f3f3f5;
+.full(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+
+.cen {
+    margin: 0 auto;
+}
+
+.fl(@f: left) {
+    float: @f;
+}
+
+.father {
+    position: relative;
+}
+
+.son(@top, @right, @bottom, @left) {
+    position: absolute;
+    top: @top;
+    right: @right;
+    bottom: @bottom;
+    left: @left;
+}
+
+html,
+body,
+.box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 10px;
+}
+
+.shu(@dir: horizontal) {
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+
+.heng(@div: vertical) {
+    display: -webkit-box;
+    -webkit-box-orient: @div;
+}
+
+.yifen {
+    -webkit-box-flex: 1;
+}
+
+.chuizhi {
+    -webkit-box-align: center;
+}
+
+.shuipin {
+    -webkit-box-pack: center;
+}
+
+.box {
+    .heng;
+    .top {
+        height: 0.88rem;
+        background: @lan;
+        line-height: 0.88rem;
+        .shu;
+        overflow: hidden;
+        .fan {
+            height: 0.4rem;
+            margin-left: 0.3rem;
+            padding-top: 0.25rem;
+        }
+        .cheng {
+            .yifen;
+            text-align: center;
+            margin-left: -10%;
+            font-size: 0.36rem;
+            color: #fff;
+            font-weight: normal;
+        }
+    }
+    .main {
+        overflow: auto;
+        .yifen;
+        .heng;
+        background: @dicolor;
+        /*搜索框*/
+        .form {
+            background: #fff;
+            margin: 0.1rem 0.28rem;
+            border-radius: 0.05rem;
+            box-sizing: border-box;
+            height: 0.58rem;
+            .shu;
+            .chuizhi;
+            .g2 {
+                width: 0.28rem;
+                height: 0.26rem;
+                display: block;
+                margin-left: 0.15rem;
+                margin-right: 0.15rem;
+                background: url(../img/search-icon.png) no-repeat;
+                background-size: 0.28rem 0.26rem;
+            }
+            .text {
+                outline: 0;
+                border: 0;
+                font-size: 0.23rem;
+                color: #ababab;
+                font-size: 0.26rem;
+            }
+            .text3{
+                color: #333;
+            }
+        }
+        /*搜索框完*/
+        /*白块*/
+        .bai {
+            background: #FFFFFF;
+            .yifen;
+            padding-top: 0.25rem;
+            box-sizing: border-box;
+            .tou {
+                box-sizing: border-box;
+                padding-left: 0.3rem;
+                padding-bottom: 0.16rem;
+                .p1 {
+                    background: url(../img/图标.png) no-repeat 0 center;
+                    background-size: 0.21rem 0.22rem;
+                    text-indent: 0.36rem;
+                    font-size: 0.2rem;
+                    color: #d0d0d0;
+                }
+                .p2 {
+                    text-indent: 0.36rem;
+                    font-size: 0.25rem;
+                    color: @lan;
+                    margin: 0.1rem 0;
+                }
+            }
+            /*背景完*/
+            .chengshi {
+                box-sizing: border-box;
+                .shi {
+                    box-sizing: border-box;
+                    .list {
+                        background: #fff;
+                        .father;
+                        &.active1 {
+                            .lankuai {
+                                display: block;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                margin-top: -0.375rem;
+                                margin-left: -0.375rem;
+                                width: 0.75rem;
+                                height: 0.75rem;
+                                background: @lan;
+                                text-align: center;
+                                line-height: 0.75rem;
+                                font-size: 0.4rem;
+                                color: #fff;
+                            }
+                        }
+                        .li {
+                            width: 547/640*100%;
+                            height: 0.93rem;
+                            line-height: 0.93rem;
+                            margin-left: 0.3rem;
+                            border-bottom: 1px solid #e5e9ec;
+                            .shu;
+                            .chuizhi;
+                            a{
+                                .yifen;
+                                display: block;
+                                color: #333;
+                                font-size: 0.24rem;
+                            }
+                            .dui{
+                                display: none;
+                                img{
+                                    width: 0.34rem;
+                                }
+                            }
+                            &.active,
+                            &:hover {
+                                a {
+                                    color: @lan;
+                                }
+                                font-size: 0.26rem;
+                                .dui{
+                                    display: block;
+                                }
+                            }
+                        }
+                        .lankuai {
+                            display: none;
+                        }
+                        .li1 {
+                            width: 587/640*100%;
+                            background: #f3f3f5;
+                            text-indent: 0.3rem;
+                            padding: 0.1rem 0;
+                        }
+                        .li2 {
+                            border: 0;
+                        }
+                    }
+                }
+            }
+            /*背景完*/
+            /*导航*/
+            .nav {
+                position: fixed;
+                top: 3.01rem;
+                right: 0;
+                width: 0.35rem;
+                background: #fff;
+            }
+            /*导航完*/
+        }
+      .bai2 {
+             padding-top: 0;
+        }
+    }
+}
+
+
+/*第二页 支付方式*/
+
+.main2 {
+    overflow: auto;
+    background: #f3f4f8;
+    .yifen;
+    .jine {
+        background: #fff;
+        .shu;
+        .chuizhi;
+        padding-top: 0.32rem;
+        padding-right: 0.32rem;
+        padding-bottom: 0.32rem;
+        .z {
+            .shu;
+            .yifen;
+            .chuizhi;
+            font-size: 0.32rem;
+        }
+        .yo {
+            color: @lan;
+            font-size: 0.23rem;
+            .shu1 {
+                font-size: 0.29rem;
+            }
+        }
+        .qian {
+            height: 0.4rem;
+            margin: 0 0.32rem;
+        }
+    }
+    .zhifu {
+        background: #fff;
+        margin-top: 1px;
+        text-indent: 0.3rem;
+        height: 0.56rem;
+        .shu;
+        .shuipin;
+        .chuizhi;
+        padding: 0.25rem 0;
+        .zj {
+            .yifen;
+            .shu;
+            .wpy {
+                display: block;
+                background: url(../img/wpy.png) no-repeat;
+            }
+            .qb {
+                width: 0.39rem;
+                height: 0.38rem;
+                background-position: 0 0;
+                background-size: 0.39rem auto;
+            }
+            .wx {
+                 width: 0.39rem;
+                height: 0.32rem;
+                background-position: 0 -.38rem;
+                background-size: 0.39rem auto;
+            }
+            .zfb {
+                 width: 0.39rem;
+                height: 0.32rem;
+                background-position: 0 -.7rem;
+                background-size: 0.39rem auto;
+            }
+        }
+        .zi {
+            font-size: 0.28rem;
+        }
+        .yu {
+            color: #f8486c;
+            font-size: 0.26rem;
+        }
+        input[type='radio'] {
+            display: none;
+            &+label {
+                display: block;
+                width: 0.38rem;
+                height: 0.38rem;
+                background: url(../img/checked-mark.png) no-repeat 0 -38px;
+                background-size: 0.38rem auto;
+                margin-right: 0.3rem;
+                margin-left: 0.3rem;
+                border: 1px solid #d2d2d2;
+                border-radius: 50%;
+            }
+            &:checked {
+                &+label {
+                    background-position: 0 0;
+                }
+            }
+        }
+    }
+    .zffs {
+        font-size: 0.27rem;
+        height: 0.74rem;
+        line-height: 0.74rem;
+        text-indent: 0.3rem;
+    }
+    .queren {
+        .full(580/640*100%, 0.84rem, #4194f0);
+        margin: 0.14rem auto;
+        border-radius: 0.07rem;
+        margin-top: 4.45rem;
+        button {
+            .full(100%, 0.84rem, #4194f0);
+            text-align: center;
+            line-height: 0.84rem;
+            font-size: 0.3rem;
+            color: #fff;
+            border: 0;
+        }
+    }
+}
+
+/*第四页搜索学校*/
+.main3{
+    background: #f3f2f5;
+    .yifen;
+    .heng;
+    .father;
+    .form1{
+        .shu;
+        padding: 0.2rem 0.28rem;
+        box-sizing: border-box;
+        .text1{
+            display: block;
+            .yifen;
+           padding: .18rem .16rem;
+            margin-right: 0.18rem;
+            border: 0;
+            outline: 0;
+            border-radius: 0.05rem;
+            color: #aaaaaa;
+            background:#fff url(../img/search-icon.png) no-repeat 0.11rem center;
+            background-size: auto 0.24rem; 
+            text-indent: 0.58rem;
+            font-size: 0.26rem;
+            box-sizing: border-box;
+        }
+        .sub{
+            font-size: 0.24rem;
+            background: #eaeaea;
+            border: 1px solid #d9d9d9;
+            padding: .18rem .16rem;
+            border-radius: 0.05rem;
+        }
+    }
+    .baibai{
+        .yifen;
+        background: #fff;
+    }
+    .jingao{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 4.16rem;
+        height: 2.32rem;
+        margin-left: -2.08rem;
+        margin-top: -1.16rem;
+        .heng;
+        .shuipin;
+        .chuizhi;
+         img{
+            height: 1.39rem;
+            display: block;
+            margin-bottom: 0.28rem;
+        }
+        b{
+            color: #b6b6b6;
+            font-size: 0.3rem;
+        }
+    }
+}

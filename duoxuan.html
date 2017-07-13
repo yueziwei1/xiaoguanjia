@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>选择支付方式</title>
+		<link rel="stylesheet" type="text/css" href="css/box.css" />
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+		<script type="text/javascript" src="js/rem.js"></script>
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="top">
+				<a href="index.html"><img src="img/nav_btn_back.png" class="fan" /></a>
+				<h4 class="cheng">选择支付方式</h4>
+			</div>
+			<div class="main2">
+				<div class="jine">
+					<div class="z">
+						<img src="img/icon_jine.png" class="qian" />
+						<h6 class="j">订单金额</h6>
+					</div>
+					<div class="yo">￥<span class="shu1">7</span></div>
+				</div>
+
+				<h5 class="zffs">选择支付方式</h5>
+
+				<div class="zhifu">
+					<input type="radio" name="xuan" id="yi" />
+					<label for="yi" class="ch"></label>
+					<div class="zj">
+						<i class="wpy qb"></i>
+						<h5 class="zi">钱包</h5>
+					</div>
+					<span class="yu">余额: <b>20.50</b>1元</span>
+				</div>
+				<div class="zhifu">
+					<input type="radio" name="xuan" id="er" />
+					<label for="er" class="ch"></label>
+					<div class="zj">
+						<i class="wpy wx"></i>
+						<h5 class="zi">微信</h5>
+					</div>
+				</div>
+				<div class="zhifu">
+					<input type="radio" name="xuan" id="san" />
+					<label for="san" class="ch"></label>
+					<div class="zj">
+						<i class="wpy zfb"></i>
+						<h5 class="zi">支付宝 </h5>
+					</div>
+				</div>
+
+				<div class="queren">
+					<button>确认付款</button>
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+
+</html>

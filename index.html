@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/box_dian.css" />
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+		<script type="text/javascript">
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						if(clientWidth >= 750) {
+							docEl.style.fontSize = '100px';
+						} else {
+							docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+						}
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+				/*DOMContentLoaded�ĵ�������ɲ���ͼƬ��Դ onload��ͼƬ��Դ*/
+			})(document, window);
+		</script>
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="top">
+				<div class="fan"><a href="#"><img src="img/nav_btn_back.png" class="tu1"/></a></div>
+				<form action="#">
+					<input type="text" class="texta" value="北京体育大学京东方"/>
+				</form>
+				<div class="dian">
+					<span class="tu"><img src="img/dian.png" class="tu2"/></span>
+					<span class="zizi">我的店铺</span>
+				</div>
+			</div>
+			<div class="main1">
+				<div class="lbt"><img src="img/t2.png" class="tu3"/></div>
+				<div class="kuai">
+				<img src="img/wu.png" class="img4"/>
+				<p>您所在的学校还没有一个小管家快去申请成为小管家吧</p>
+				<a href="chengshi2.html" class="button">申请成为小管家</a>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="kuai1">
+					<a href="index.html">
+						<span class=" shou"></span>
+					<span class="di_zi active22">首页</span>
+					</a>
+				</div>
+				<div class="kuai1">
+					<a href=" gwc_caidan.html">
+						<span class=" dan"></span>
+					<span class="di_zi">订单</span>
+					</a>
+				</div>
+				<div class="kuai1">
+					<a href="#">
+						<span class=" my"></span>
+					<span class="di_zi">我的</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
