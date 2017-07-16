@@ -1,0 +1,156 @@
+@import url(reset.css);
+.cen {
+  margin: 0 auto;
+}
+.father {
+  position: relative;
+}
+html,
+body,
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 10px;
+}
+.yifen {
+  -webkit-box-flex: 1;
+}
+.chuizhi {
+  -webkit-box-align: center;
+}
+.shuipin {
+  -webkit-box-pack: center;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.box .top {
+  height: 0.88rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  padding: 0 0.28rem;
+}
+.box .top a {
+  display: block;
+}
+.box .top a img {
+  height: 0.32rem;
+}
+.box .top .cheng {
+  text-align: center;
+  -webkit-box-flex: 1;
+  font-size: 0.32rem;
+  color: #fff;
+  margin-left: -0.28rem;
+}
+.box .section {
+  position: relative;
+  -webkit-box-flex: 1;
+  background: #f2f5f7;
+}
+.box .section .pin {
+  height: 3.78rem;
+  background: #fff;
+  padding: 0.42rem 0.32rem;
+  box-sizing: border-box;
+}
+.box .section .pin .te {
+  border: 0;
+  outline: 0;
+  display: block;
+  width: 100%;
+  height: 3.06rem;
+  font-size: 0.28rem;
+  color: #c6c6c6;
+}
+.box .section .pin .hang {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  margin-top: -0.22rem;
+  background: #fff;
+}
+.box .section .pin .hang .ni {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.box .section .pin .hang .ni input[type="checkbox"] {
+  display: none;
+}
+.box .section .pin .hang .ni input[type="checkbox"] + label {
+  display: block;
+  height: 0.28rem;
+  width: 0.28rem;
+  background: url(../img/check-mark.png) no-repeat bottom;
+  background-size: 0.28rem auto;
+}
+.box .section .pin .hang .ni input[type="checkbox"]:checked + label {
+  background-position: top;
+}
+.box .section .pin .hang .ni h3 {
+  margin-left: 0.15rem;
+}
+.box .section .pin .hang .ke span {
+  color: #faaa3c;
+}
+.box .section .bar {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  background: #fff;
+  padding: 0.3rem;
+  margin-top: 1px;
+}
+.box .section .bar .point {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+}
+.box .section .bar .star {
+  height: 0.39rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.box .section .bar .star .star-bar {
+  margin: 0 0.11rem;
+  height: 0.39rem;
+  width: 0.39rem;
+  background: url(../img/start.png) repeat-x;
+  background-size: 0.38rem;
+}
+.box .footer_one {
+  background: #f2f5f7;
+  text-align: center;
+  padding: 0 0.3rem;
+  padding-bottom: 0.32rem;
+}
+.box .footer_one a {
+  display: block;
+  background: #4194f0;
+  height: 0.78rem;
+  line-height: 0.78rem;
+  border-radius: 0.05rem;
+  font-size: 0.28rem;
+  color: #fff;
+}
+.box .zzc {
+  width: 3.31rem;
+  height: 1.04rem;
+  background: #333;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.52rem;
+  margin-left: -1.655rem;
+  text-align: center;
+  line-height: 1.04rem;
+  font-size: 0.22rem;
+  border-radius: 0.15rem;
+}

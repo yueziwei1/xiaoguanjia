@@ -1,0 +1,310 @@
+@import url(reset.css);
+.cen {
+  margin: 0 auto;
+}
+.father {
+  position: relative;
+}
+html,
+body,
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 10px;
+}
+.yifen {
+  -webkit-box-flex: 1;
+}
+.chuizhi {
+  -webkit-box-align: center;
+}
+.shuipin {
+  -webkit-box-pack: center;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.box .top {
+  height: 0.88rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  padding: 0 0.28rem;
+}
+.box .top a {
+  display: block;
+}
+.box .top a img {
+  height: 0.32rem;
+}
+.box .top .cheng {
+  text-align: center;
+  -webkit-box-flex: 1;
+  font-size: 0.32rem;
+  color: #fff;
+  margin-left: -0.28rem;
+}
+.box .naonao {
+  width: 100%;
+  height: 1.5rem;
+  background: #4194f0;
+}
+.box .naonao .xiao {
+  width: 93.75%;
+  height: 1rem;
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: 7px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  padding-top: 0.23rem;
+}
+.box .naonao .xiao .zzz {
+  padding-left: 0.2rem;
+  padding-right: 0.16rem;
+}
+.box .naonao .xiao .zzz img {
+  width: 0.74rem;
+}
+.box .naonao .xiao .yyy {
+  -webkit-box-flex: 1;
+}
+.box .naonao .xiao .yyy p {
+  font-size: 0.28rem;
+  font-weight: bold;
+}
+.box .naonao .xiao .yyy p span {
+  font-size: 0.18rem;
+  font-weight: normal;
+}
+.box .section {
+  overflow: auto;
+  -webkit-box-flex: 1;
+}
+.box .section .main8 {
+  background: #f2f5f7;
+  padding-top: 0.16rem;
+  padding-bottom: 0.7rem;
+}
+.box .section .main8 .bai {
+  background: #fff;
+  margin-bottom: 0.01rem;
+  padding: 0.24rem;
+}
+.box .section .main8 .bai h3 {
+  border-left: 0.06rem solid #4194f0;
+  margin-right: 0.35rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-indent: 0.08rem;
+}
+.box .section .main8 .jiage {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  padding: 0.24rem;
+  background: #fff;
+  margin-bottom: 0.02rem;
+}
+.box .section .main8 .jiage .p4_p1 {
+  margin-right: 0.19rem;
+}
+.box .section .main8 .jiage .p4_p1 img {
+  border: 1px solid #e1e3e6;
+  height: 0.86rem;
+  padding-top: 0.1rem;
+}
+.box .section .main8 .jiage .p4_p2 {
+  -webkit-box-flex: 1;
+  color: #7a7a7a;
+  font-size: 0.17rem;
+  margin-right: 0.3rem;
+}
+.box .section .main8 .jiage .hou {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.box .section .main8 .jiage .hou .p4_3 {
+  -webkit-box-flex: 1;
+  color: #b0b0b0;
+  margin: 0 0.11rem;
+  font-size: 0.18rem;
+}
+.box .section .main8 .jiage .hou .p4_p4 {
+  -webkit-box-flex: 1;
+  color: #c8c8c8;
+  text-decoration: line-through;
+  margin: 0 0.11rem;
+  font-size: 0.18rem;
+}
+.box .section .main8 .jiage .hou .p4_p5 {
+  -webkit-box-flex: 1;
+  margin: 0 0.11rem;
+  font-size: 0.12rem;
+}
+.box .section .main8 .jia {
+  background: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  padding: 0.24rem;
+}
+.box .section .main8 .jia .zuo1 {
+  -webkit-box-flex: 1;
+  font-size: 0.19rem;
+  color: #666666;
+}
+.box .section .main8 .jia .zuo1 span {
+  margin: 0 0.16rem;
+}
+.box .section .main8 .jia .you1 {
+  font-size: 0.24rem;
+}
+.box .section .main8 .jia .you1 span {
+  font-size: 0.2rem;
+  color: #ff5a64;
+}
+.box .section .main8 .shouhuo {
+  width: 100%;
+  height: 0.76rem;
+  background: #ffffff;
+  margin-top: 0.15rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e6e9eb;
+}
+.box .section .main8 .shouhuo img {
+  width: 0.25rem;
+  height: auto;
+  background: none;
+  padding-left: 0.3rem;
+  padding-right: 0.1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.box .section .main8 .shouhuo p {
+  -webkit-box-flex: 1;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.box .section .main8 .hao {
+  width: 100%;
+  height: 0.76rem;
+  background: #ffffff;
+  font-size: 0.24rem;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e6e9eb;
+}
+.box .section .main8 .hao p {
+  -webkit-box-flex: 1;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.3rem;
+}
+.box .footer {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  -webkit-box-pack: end;
+}
+.box .footer span {
+  display: block;
+  line-height: 0.5rem;
+  margin-left: 0.3rem;
+  border-radius: 3px;
+}
+.box .footer .dan {
+  width: 1.36rem;
+  height: 0.5rem;
+  background: none;
+  border: 1px solid #454647;
+  font-size: 0.24rem;
+}
+.box .footer .fu {
+  width: 1.36rem;
+  height: 0.5rem;
+  background: none;
+  border: 1px solid #6ea0e1;
+  font-size: 0.24rem;
+  color: #6ea0e1;
+  margin-right: 0.3rem;
+}
+.zhezhao {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.zhezhao .baikuai {
+  border-radius: 0.05rem;
+  width: 5.12rem;
+  height: 2.96rem;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1.48rem;
+  margin-left: -2.56rem;
+  text-align: center;
+}
+.zhezhao .baikuai .tou {
+  padding-top: 0.64rem;
+  margin-bottom: 0.4rem;
+}
+.zhezhao .baikuai .tou .p5_1 {
+  font-size: 0.28rem;
+  color: #333;
+}
+.zhezhao .baikuai .tou .p5_1 b {
+  font-size: 0.3rem;
+  color: #4194f0;
+}
+.zhezhao .baikuai .tou .p5_2 {
+  font-size: 0.15rem;
+  color: #666666;
+}
+.zhezhao .baikuai .wei {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.zhezhao .baikuai .wei a {
+  -webkit-box-flex: 1;
+  display: block;
+}
+.zhezhao .baikuai .wei a span {
+  margin: 0 auto;
+  display: block;
+  width: 2.14rem;
+  height: 0.76rem;
+  text-align: center;
+  line-height: 0.76rem;
+  border-radius: 0.05rem;
+  font-size: 0.31rem;
+}
+.zhezhao .baikuai .wei a .span1_1 {
+  color: #4194f0;
+  background: #fff;
+  border: 1px solid #4194f0;
+}
+.zhezhao .baikuai .wei a .span1_2 {
+  border: 1px solid #4194f0;
+  background: #4194f0;
+  color: #fff;
+}

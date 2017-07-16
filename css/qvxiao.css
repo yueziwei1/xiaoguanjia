@@ -1,0 +1,362 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.88rem;
+  background: #4194f0;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-align-items: center;
+}
+.container header a {
+  padding-left: 0.29rem;
+  padding-right: 0.27rem;
+}
+.container header a img {
+  width: 0.38rem;
+  height: auto;
+  background: none;
+}
+.container header p {
+  -webkit-flex: 1;
+  text-align: center;
+  font-size: 0.27rem;
+  margin-left: -0.7rem;
+  color: #fff;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f5f5f9;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container section .shi555 {
+  -webkit-box-align: center;
+}
+.container section .shi555 .ding {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 1rem;
+  background: #fff8e6;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 1rem;
+}
+.container section .shi555 .ding .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+.container section .shi555 .ding span {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  text-align: right;
+  color: #4194f0;
+  margin-right: 0.3rem;
+}
+.container section .shi555 .ding span i {
+  font-size: 0.22rem;
+  font-style: normal;
+}
+.container section .shi555 .xuanze {
+  width: 100%;
+  height: 0.75rem;
+  background: none;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+}
+.container section .shi555 .xuanze p {
+  height: 0.75rem;
+  line-height: 0.75rem;
+  font-size: 0.22rem;
+}
+.container section .shi555 .fangshi {
+  width: 100%;
+  height: 2.7rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 0.9rem;
+  -webkit-box-flex: 1;
+}
+.container section .shi555 .fangshi .qian {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 1rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 1rem;
+}
+.container section .shi555 .fangshi .qian .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .shi555 .fangshi .qian .left input[type='checkbox'] {
+  display: none;
+}
+.container section .shi555 .fangshi .qian .left input[type='checkbox'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .shi555 .fangshi .qian .left input[type='checkbox']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .shi555 .fangshi .qian .left .qianbao {
+  width: 0.38rem;
+  height: 0.32rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 -0.38rem;
+  background-size: 0.39rem auto ;
+}
+.container section .shi555 .fangshi .qian .left span {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  text-align: right;
+  margin-right: 0.3rem;
+  padding-left: 0.25rem;
+}
+.container section .shi555 .fangshi .qian .yu {
+  -webkit-box-flex: 1;
+  font-size: 0.25rem;
+  text-align: right;
+  margin-right: 0.3rem;
+}
+.container section .shi555 .fangshi .wei {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .shi555 .fangshi .wei .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .shi555 .fangshi .wei .left input[type='checkbox'] {
+  display: none;
+}
+.container section .shi555 .fangshi .wei .left input[type='checkbox'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .shi555 .fangshi .wei .left input[type='checkbox']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .shi555 .fangshi .wei .left .weixin {
+  width: 0.39rem;
+  height: 0.33rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 -0.71rem;
+  background-size: 0.39rem auto ;
+}
+.container section .shi555 .fangshi .wei .left span {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  text-align: right;
+  margin-right: 0.3rem;
+  padding-left: 0.25rem;
+}
+.container section .shi555 .fangshi .zhi {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .shi555 .fangshi .zhi .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .shi555 .fangshi .zhi .left input[type='checkbox'] {
+  display: none;
+}
+.container section .shi555 .fangshi .zhi .left input[type='checkbox'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .shi555 .fangshi .zhi .left input[type='checkbox']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .shi555 .fangshi .zhi .left .zhifubao {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 0;
+  background-size: 0.38rem auto ;
+}
+.container section .shi555 .fangshi .zhi .left span {
+  -webkit-box-flex: 1;
+  padding-left: 0.25rem;
+  font-size: 0.28rem;
+  text-align: right;
+  margin-right: 0.3rem;
+}
+.container section .shi555 .fangshi .ta {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .shi555 .fangshi .ta .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .shi555 .fangshi .ta .left input[type='checkbox'] {
+  display: none;
+}
+.container section .shi555 .fangshi .ta .left input[type='checkbox'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .shi555 .fangshi .ta .left input[type='checkbox']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .shi555 .fangshi .ta .left .zhifubao {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 0;
+  background-size: 0.38rem auto ;
+}
+.container section .shi555 .fangshi .ta .left span {
+  -webkit-box-flex: 1;
+  padding-left: 0.25rem;
+  font-size: 0.28rem;
+  text-align: right;
+  margin-right: 0.3rem;
+}
+.container section .shi555 .fangshi .ta .left span .zhi {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .shi555 .fangshi .ta .left span .zhi .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .shi555 .fangshi .ta .left span .zhi .left input[type='checkbox'] {
+  display: none;
+}
+.container section .shi555 .fangshi .ta .left span .zhi .left input[type='checkbox'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .shi555 .fangshi .ta .left span .zhi .left input[type='checkbox']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .shi555 .fangshi .ta .left span .zhi .left .ta {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 0;
+  background-size: 0.38rem auto ;
+}
+.container section .shi555 .fangshi .ta .left span .zhi .left span {
+  -webkit-box-flex: 1;
+  padding-left: 0.25rem;
+  font-size: 0.28rem;
+  text-align: right;
+  margin-right: 0.3rem;
+  color: #b2b2b2;
+}
+.container section .queren {
+  width: 90.625%;
+  height: 0.84rem;
+  background: none;
+  margin: 0 auto;
+  margin-top: 5.45rem;
+}
+.container section .queren button {
+  width: 100%;
+  height: 0.84rem;
+  background: #acacac;
+  text-align: center;
+  line-height: 0.84rem;
+  font-size: 0.3rem;
+  border-radius: 7px;
+  color: #fff;
+  border: 0;
+}
